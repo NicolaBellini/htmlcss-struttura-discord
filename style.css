@@ -21,7 +21,7 @@ header .logo{
 header .menu{
   display:flex;
   justify-content: space-around;
-  background-color: green;
+  background-color: rgb(113, 168, 113);
   width: 600px;
 }
 
@@ -36,39 +36,28 @@ header .login{
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  /* background-color: green; */
-  /* height: 200px; */
   width: 100%;
   text-align: center;
 }
 
 .top{
   text-align: center;
-  padding: 50px 250px;
+  padding: 10% 15%;
   background-color: red;
   margin: 0 14%;
 }
 
 .container2{
-  /* background-color: orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* height: 200px;
-  width: 300px; */
-  /* margin: 0 auto; */ 
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  /* background-color: green; */
-  /* height: 200px; */
   width: 100%;
   text-align: center;
 }
 
 .top2{
   text-align: center;
-  padding: 50px 250px;
+  padding: 10% 15%;
   background-color: rgb(158, 123, 123);
   margin: 0 14%;
   display: flex ;
@@ -77,7 +66,7 @@ header .login{
 }
  
 .top2 img{
-  width: 200px;
+  width: 100%;
   height: auto;
 }
 
@@ -92,17 +81,19 @@ header .login{
   align-items: center;
   flex-direction: row-reverse;
   text-align: center;
-  padding: 50px 250px;
+  padding: 10% 15%;
   background-color: rgb(127, 71, 71);
   margin: 0 14%;
 }
  
 .top3 img{
-  width: 200px;
+  width: 100%;
   height: auto;
+
 }
 
 .top3 .testo{
+  /* width: 30%; */
   display: flex;
   flex-direction: column;
 }
@@ -110,7 +101,7 @@ header .login{
 
 .top4{
   text-align: center;
-  padding: 50px 250px;
+  padding: 10% 15%;
   background-color: rgb(212, 44, 44);
   margin: 0 14%;
   display: flex ;
@@ -119,7 +110,7 @@ header .login{
 }
  
 .top4 img{
-  width: 200px;
+  width: 80%;
   height: auto;
 }
 
@@ -147,19 +138,42 @@ footer{
   display: flex;
   justify-content: center;
   width: 100%;
+  flex-direction: column;
+
+}
+
+.contenitore-footer{
+  margin: 0 14%;
 }
 
 .colonne{
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   background-color: orange;
-  margin: 0 14%;
   align-items: flex-start;
-  border-bottom: 2px solid black;
+  border-bottom: 5px solid black;
 }
 
-.colonna1{
-  display: flex;
-  flex-direction: column;
 
+.colonna-grande{
+  background-color: red;
+  width: 30%;
+}
+
+colonna-piccola{
+  background-color: orange;
+  width: 10%;
+}
+
+.footer-sotto{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sotto img{
+  height: 40px;
+  width: 100px;
 }
