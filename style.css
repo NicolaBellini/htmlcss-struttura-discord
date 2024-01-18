@@ -32,7 +32,9 @@ header .login{
   width: 200px;
 }
 
-.container{
+/* prima parte sotto lheader */
+.container-top{
+  background-color: #4436bd;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -43,10 +45,12 @@ header .login{
 .top{
   text-align: center;
   padding: 10% 15%;
-  background-color: red;
-  margin: 0 14%;
+  background-color: rgb(219, 51, 107);
+  margin: 0 21%;
 }
+ /* fine prima parte sotto l header */
 
+ /* inizio seconda parte */
 .container2{
   display: flex;
   justify-content: center;
@@ -57,69 +61,96 @@ header .login{
 
 .top2{
   text-align: center;
-  padding: 10% 15%;
-  background-color: rgb(158, 123, 123);
+  padding: 6% 0%;
   margin: 0 14%;
   display: flex ;
   justify-content: center;
   align-items: center;
 }
  
-.top2 img{
-  width: 100%;
-  height: auto;
+.top2 .immagine{
+  background-color: red;
+  width: 60%;
+  height:300px;
 }
 
 .top2 .testo{
-  display: flex;
-  flex-direction: column;
+  background-color: pink;
+  width: 40%;
+  height: 300px;
 }
+/* fine seconda parte */
+
+/* terza parte */
+.container3{
+  background-color: gray; 
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+} 
 
 .top3{
+  background-color: grey;
+  text-align: center;
+  padding: 6% 3%;
+  margin: 0 14%;
   display: flex ;
+  flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
-  flex-direction: row-reverse;
-  text-align: center;
-  padding: 10% 15%;
-  background-color: rgb(127, 71, 71);
-  margin: 0 14%;
 }
  
-.top3 img{
-  width: 100%;
-  height: auto;
+.top3 .immagine{
+  background-color: red;
+  width: 60%;
+  height:300px;
 
 }
 
 .top3 .testo{
-  /* width: 30%; */
-  display: flex;
-  flex-direction: column;
+  background-color: pink;
+  width: 40%;
+  height: 300px;
 }
+/* fine terza parte */
 
+/* quarta parte */
+.container4{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+} 
 
 .top4{
   text-align: center;
-  padding: 10% 15%;
-  background-color: rgb(212, 44, 44);
+  padding: 6% 3%;
   margin: 0 14%;
   display: flex ;
   justify-content: center;
   align-items: center;
 }
  
-.top4 img{
-  width: 80%;
-  height: auto;
+.top4 .immagine{
+  background-color: rgb(142, 19, 19);
+  /* metti un div largo il 60% con dentro un immagine */
+  width: 60%;
+  height:300px;
 }
 
 .top4 .testo{
-  display: flex;
-  flex-direction: column;
+  background-color: pink;
+  width: 40%;
+  height: 300px;
 }
+ /* fine quarta parte */
 
+ /* parte finale con l immagine grande prima del footer */
 .bottom{
+  background-color: green;
   margin: 0 14%;
   display: flex;
   flex-direction: column;
@@ -132,21 +163,23 @@ header .login{
   height: 500px;
 
 }
+/* fine parte prima del footer */
+
 
 footer{
-  background-color: green;
+  background-color: rgb(64, 67, 64);
   display: flex;
   justify-content: center;
   width: 100%;
   flex-direction: column;
-
 }
 
 .contenitore-footer{
-  margin: 0 14%;
+  margin: 8px 14%;
 }
 
 .colonne{
+  padding-bottom: 10px;
   width: 100%;
   height: 100%;
   display: flex;
@@ -156,7 +189,6 @@ footer{
   border-bottom: 5px solid black;
 }
 
-
 .colonna-grande{
   background-color: red;
   width: 30%;
@@ -164,10 +196,11 @@ footer{
 
 colonna-piccola{
   background-color: orange;
-  width: 10%;
+  width: 17.5%;
 }
 
 .footer-sotto{
+  margin-top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
