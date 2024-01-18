@@ -32,17 +32,98 @@ header .login{
   width: 200px;
 }
 
-.hero{
-  background-color: green;
-  height: 200px;
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* background-color: green; */
+  /* height: 200px; */
   width: 100%;
   text-align: center;
-  
 }
 
 .top{
-  margin: 0 auto;
-  padding: 50px 0;
+  text-align: center;
+  padding: 50px 250px;
   background-color: red;
-  margin: 0 15%;
+  margin: 0 14%;
+}
+
+.container2{
+  /* background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px;
+  width: 300px; */
+  /* margin: 0 auto; */ */
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  /* background-color: green; */
+  /* height: 200px; */
+  width: 100%;
+  text-align: center;
+}
+
+.top2{
+  text-align: center;
+  padding: 50px 250px;
+  background-color: rgb(158, 123, 123);
+  margin: 0 14%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.top2 img{
+  width: 200px;
+  height: auto;
+}
+
+.top2 .testo{
+  display: flex;
+  flex-direction: column;
+}
+
+.top3{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  text-align: center;
+  padding: 50px 250px;
+  background-color: rgb(127, 71, 71);
+  margin: 0 14%;
+}
+ 
+.top3 img{
+  width: 200px;
+  height: auto;
+}
+
+.top3 .testo{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.top4{
+  text-align: center;
+  padding: 50px 250px;
+  background-color: rgb(212, 44, 44);
+  margin: 0 14%;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.top4 img{
+  width: 200px;
+  height: auto;
+}
+
+.top4 .testo{
+  display: flex;
+  flex-direction: column;
 }
