@@ -56,7 +56,7 @@ header .login{
   align-items: center;
   /* height: 200px;
   width: 300px; */
-  /* margin: 0 auto; */ */
+  /* margin: 0 auto; */ 
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -126,4 +126,40 @@ header .login{
 .top4 .testo{
   display: flex;
   flex-direction: column;
+}
+
+.bottom{
+  margin: 0 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom img{
+  width: 600px;
+  height: 500px;
+
+}
+
+footer{
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.colonne{
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  margin: 0 14%;
+  align-items: flex-start;
+  border-bottom: 2px solid black;
+}
+
+.colonna1{
+  display: flex;
+  flex-direction: column;
+
 }
